@@ -132,3 +132,5 @@ EMAIL_HOST_PASSWORD = 'vnypwwbicaexhdah' # Yahan apna 16-digit App Password daal
 
 
 LOGIN_URL = 'send_otp'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
