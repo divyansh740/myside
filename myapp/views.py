@@ -12,6 +12,8 @@ from .models import Course, Enrollment, EmailOTP, Enquiry
 
 # 1. Main Landing Page View
 # 1. Main Landing Page View
+
+
 def index(request):
     if request.method == "POST":
         full_name = request.POST.get("full_name")
@@ -105,6 +107,7 @@ def send_otp_view(request):
     return render(request, 'send_otp.html')
 
 # 7. Create Order View
+@login_required
 def create_order(request, course_id):
     course = Course.objects.get(id=course_id)
     context = {
