@@ -128,7 +128,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'divyanshbhai695@gmail.com'
-EMAIL_HOST_PASSWORD = 'vnypwwbicaexhdah' # Yahan apna 16-digit App Password daal dena
+EMAIL_HOST_PASSWORD = 'gruuhoubzzbkwpsp' # Yahan apna 16-digit App Password daal dena
 
 
 LOGIN_URL = 'send_otp'
