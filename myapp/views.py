@@ -97,7 +97,7 @@ def send_otp_view(request):
         send_mail(
             'Your LMS Login OTP',
             f'Your OTP for LMS Login is: {otp_code}',
-            'noreply@lms.com',
+            'divyanshbhai695@gmail.com',
             [email],
             fail_silently=False,
         )
