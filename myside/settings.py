@@ -136,3 +136,5 @@ LOGIN_URL = 'send_otp'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 ALLOWED_HOSTS = ['myside-1scm.onrender.com', '127.0.0.1', 'localhost']
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
